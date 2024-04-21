@@ -35,7 +35,9 @@ document.getElementById("myForm").addEventListener("submit", (e) => {
 
     localStorage.setItem("users", JSON.stringify(usersArray));
 
-    console.log("user singed up successfully!");
+    window.location.href = "/login/index.html";
+    alert("User singed up successfully,/n Kindly login again with credentials created!");
+    
     document.getElementById("firstName").value = "";
     document.getElementById("lastName").value = "";
     document.getElementById("email").value = "";
