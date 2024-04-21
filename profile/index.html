@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Profile</title>
+</head>
+<body>
+  <nav>
+    <div class="brand">
+      <a href="/">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="/shop">Shop</a>
+      <a href="/">Home</a>
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+      <a href="/cart">My Cart</a>
+      <a href="/profile">Profile</a>
+    </div>
+  </nav>
+  <!-- <div id="container"> -->
+    <form  id="edit_profile_form">
+      <h1>Profile</h1>
+      <input type="text" id="firstName" placeholder="First Name">
+      <input type="text" id="lastName" placeholder="Last Name">
+      <input type="submit" id="save_info_Btn" value="Save Info">
+      <div id="msg1"></div>
+    </form>
+    <form  id="edit_password_form">
+      <h1>Edit Password</h1>
+      <input type="password" id="old_password" placeholder="Old Password">
+      <input type="password" id="new_password" placeholder="New Password">
+      <input type="password" id="confirm_new_password" placeholder="Confirm New Password">
+      <input type="submit" id="submitPasswordBtn" value="Change Password">
+      <div id="msg2"></div>
+    </form>
+    <button id="logoutBtn">Logout</button>
+  <!-- </div> -->
+  <script src="./script.js"></script>
+</body>
+</html>

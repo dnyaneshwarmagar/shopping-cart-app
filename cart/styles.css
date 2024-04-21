@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;  
+}
+body{
+  font-size: 16px;
+  font-weight: 500;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+
+#container{
+  padding: 0px 2rem;
+  margin-left: 3rem;
+  font-size: 18px;
+}
+#container > p{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+#box {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap:3rem;
+}
+#cart_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 70%;
+}
+#cart_div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 500px;
+}
+#cart_div > div > img {
+  /* height: 100%; */
+  height: 60%;
+  width: 100%;
+  padding:1rem
+}
+#cart_div > div > div {
+  /* height: 100%; */
+  height: 8%;
+  width: 100%;
+  margin-top: 4%;
+  display: flex;
+  gap: 15px;
+  padding-left: 2rem;
+}
+#cart_div > div > button {
+  /* height: 100%; */
+  height: 12%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: inherit;
+  font-weight: inherit;
+}
+#checkout_list_div {
+  width: 28%;
+  background-color: black;
+  color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  padding:1rem 2rem;
+  padding-top: 2rem;
+}
+#checkout_list_div > p{
+  font-size: 28px;
+}
+#list_div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+  padding: 10px 0;
+}
+#list_div > div{
+  display: flex;
+  justify-content: space-between;  
+  padding:10px 0;
+}
+#list_div > div > span{
+  text-align: left;
+}
+#list_div > div > span:last-child{
+  width: 20%;
+}
+#total_div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px white solid;
+  border-top: 2px white solid;
+  padding:15px 0px;  
+}
+#total_div > span:last-child{
+  width: 20%;
+}
+#checkout_btn{
+  background-color: white;
+  color:black;
+  width: 80%;
+  padding:1rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: inherit;
+}

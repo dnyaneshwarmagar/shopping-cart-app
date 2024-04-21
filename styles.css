@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body{
+  height: 100vh;
+  background-image: url("./landingPagePic.png");
+  font-size: 16px;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: 50% 75%;
+  background-position:bottom 0 right 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  background-color: black;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+nav .brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav .nav-items a {
+  margin: 0 1rem;
+}
+#container_one{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 4rem;
+  margin: 3rem;
+  gap:2rem;
+}
+#btn_div{
+  display: flex;
+  gap:2rem
+}
+ p{
+  font-size: 24px;
+  font-weight: 700;
+  width: 60%;
+}
+ button{
+  width: 250px;
+  height: 52px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+#msg{
+  color:gray;
+}
+#container_two{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 4rem;
+  margin: 3rem;
+  gap:2rem;
+}
+#shop_btn{
+  width: 250px;
+  height: 62px;
+  font-size: 18px;
+  background-color: rgb(147, 121, 121);
+  color: white;
+  border-radius: 10px;
+  border:1px solid black;
+}
